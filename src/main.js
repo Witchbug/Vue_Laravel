@@ -1,12 +1,16 @@
+//import packages and files------------
 import Vue from 'vue'
-import App from './App.vue'
-import Router from './router.js'
 import VueResource from 'vue-resource'
- Vue.use(VueResource)
+import App from './App.vue'
+import Routes from './router.js'
+
+// Use packages
+Vue.use(VueResource);
+
+
 
 new Vue({
   el: '#app',
   render: h => h(App),
-    router: Router
-    
+  router: Routes
 })

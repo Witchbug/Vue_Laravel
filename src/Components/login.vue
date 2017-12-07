@@ -99,9 +99,9 @@ body, html {
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
-    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
 }
 
 .profile-img-card {
@@ -165,7 +165,7 @@ body, html {
     border-color: rgb(104, 145, 162);
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 2px 2px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
 }
 
 .btn.btn-signin {
